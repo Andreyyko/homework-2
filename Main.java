@@ -5,16 +5,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-
         //task 1
-
-
         System.out.println("Task #1: \nBecause Java allocates a fixed memory cell to an array ");
 
-
         //task 2
-
-
         System.out.println("Task #2: \nArray sorted by DESC");
         int[] array = {2, 3, 1, 7, 11};
         int n = array.length;
@@ -31,10 +25,7 @@ public class Main {
         }
         System.out.println("Sorted array:   " + Arrays.toString(array));
 
-
         //task 3
-
-
         System.out.println("Task #3: ");
         int[] nums = {50, -24, 42, 22, -90, -1, 3};
         System.out.println(Arrays.toString(nums));
@@ -46,10 +37,7 @@ public class Main {
         }
         System.out.println("Sum:  " + sum);
 
-
         //task 4
-
-
         System.out.println("Task #4:  \nOur array");
         int[] array2 = {3, 1, 5, 8, 2, 9, 12};
         System.out.println(Arrays.toString(array2));
@@ -60,10 +48,7 @@ public class Main {
         int arithMean = avg /= array2.length;
         System.out.println("Arithmetic mean:  " + arithMean);
 
-
         //task 5
-
-
         System.out.println("Task #5:  \nOur array");
         int[] array3 = {3, 2, 3, 1, 4, 2, 8, 3};
         System.out.println(Arrays.toString(array3));
